@@ -1,6 +1,6 @@
 # {{ ansible_managed }}
 
-{% for profile in aws.profiles %}
+{% for profile in awscli.profiles %}
 [{% if profile.name != "default" %}profile {% endif %}{{ profile.name }}]
 region = {{ profile.region | default('us-east-1')}}
 output = {{ profile.output | default('json') }}
