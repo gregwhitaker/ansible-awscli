@@ -2,7 +2,6 @@
 - name: Install Python pip
   easy_install:
     name: pip
-    state: latest
 
 - name: Install AWS CLI
   become: yes
@@ -20,7 +19,7 @@
     dest: ~/.aws/credentials
     mode: 0600
 
-- name: Use AWS CLI configuration
+- name: Apply AWS CLI configuration
   template:
     src: config.j2
     dest: ~/.aws/config
