@@ -1,3 +1,3 @@
 # ansible-awscli
 
-An Ansible role that installs the AWS CLI.
+Ansible role that installs the [AWS CLI](https://aws.amazon.com/cli/).
