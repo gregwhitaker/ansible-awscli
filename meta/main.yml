@@ -1,0 +1,19 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: Greg Whitaker
+  description: AWS CLI for Debian/Ubuntu.
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.4
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+    - web
+    - cloud
+    - aws
